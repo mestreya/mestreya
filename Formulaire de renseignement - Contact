@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title> Fiche Who's who </title>
+    </head>
+    <body>
+<h1> Fiche Contact </h1>
+<p> Remplir le formulaire ci-dessous. </p>
+
+    <form method="get" action="">
+<p>
+Nom : <input type="text">
+</p>
+
+<p>
+ Prénom : <input type="text">
+</p>
+
+<p>
+    Poste : <input type="text">
+   </p>
+       
+<p>
+    Périmètre : <input type="text">
+   </p>
+
+<p>
+    Supérieur hiérarchique : <input type="text">
+   </p>
+
+   <p>
+    Manager associé : <input type="text">
+</p>
+        
+<p>
+    Fonctions : <input type="text">
+</p>
+
+<p>
+    Collaborateurs : <input type="text">
+   </p>
+
+   <p>
+    Service : 
+    <select name="service">
+        <option value="rien" selected="true">Sélectionnez votre service</option>
+        <optgroup label="Bureaux"></optgroup>
+        <option value="Management groupe">Management groupe</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Finance">Finance</option>
+        <option value="Ressources Humaines">Ressources Humaines</option>
+        <option value="Développement">Développement</option>
+        <option value="Qualité">Qualité</option>
+        <option value="Sécurité">Sécurité</option>
+        <option value="Environnement">Environnement</option>
+        <option value="Qualité">Qualité</option>
+        <option value="Achat">Achat</option>
+        <optgroup label="Ateliers"></optgroup>
+        <option value="Production">Production</option>
+        <option value="Supply Chain">Supply Chain</option>
+        </select>
+</p>
+
+<p>
+    Langues :  
+    <select name="langues">
+        <option value="aucun" selected="true">Sélectionnez les langues parlées</option>
+        <optgroup label="Langues"></optgroup>
+        <option value="Français">Français</option>
+        <option value="Anglais">Anglais</option>
+        <option value="Anglais">Allemand</option>
+        <option value="Anglais">Portuguais</option>
+    </select>
+   </p>
+
+<h3> 
+    Comment me joindre 
+</h3>
+
+
+<p>
+    Contact : 
+    <select name="Contact">
+        <option value="aucun" selected="true">Sélectionnez le moyen de Contact</option>
+        <optgroup label="Téléphone"></optgroup>
+        <option value="Bureau">Bureau</option>
+        <option value="Portable">Portable</option>
+        <optgroup label="Adresse e-mail"></optgroup>
+        <option value="Courriel">Courriel</option>
+        <optgroup label="Adresse postale"></optgroup>
+        <option value="Adresse postale">Adresse postale</option>
+        </select>
+   </p>
+
+<p>
+    Me contacter pour : 
+    <select name="me contacter pour">
+        <option value="aucun" selected="true">Me contacter pour</option>
+        <optgroup label="Motifs"></optgroup>
+        <option value="Plasturgie">Plasturgie</option>
+        <option value="Amélioration continue">Amélioration continue</option>
+        <option value="Industrialisation">Industrialisation</option>
+        <option value="Fabrication additive">Fabrication additive</option>
+        <option value="Gestion de projet">Gestion de projet</option>
+        <option value="Optimisation process">Optimisation process</option>
+        <option value="Réduction des coûts">Réduction des coûts</option>
+        <option value="Innovation">Innovation</option>
+        </select>
+   </p>
+
+
+   <h3> A propos </h3>
+<p>
+    Hobbies : 
+    <form method="get" action="">
+        <p>
+            <label for="hobbies"> Quels sont vos hobbies ? </label><br>
+            <textarea name="hobbies" id="hobbies"></textarea>
+        </p>
+    </form>
+               
+<form method="get" action="">
+    <p>
+        <label for="préciser"> Souhaitez-vous préciser autre chose ? </label><br>
+        <textarea name="préciser" id="préciser"></textarea>
+    </p>
+</form>
+
+<input type="submit" value="Envoyer">
+
+<p>Merci à vous</p>
+</body>
+</html>
